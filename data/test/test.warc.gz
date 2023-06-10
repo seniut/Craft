@@ -1,0 +1,31 @@
+WARC/1.0
+WARC-Type: response
+WARC-Date: 2023-04-02T10:55:08Z
+WARC-Record-ID: <urn:uuid:f00a8b0a-1761-496e-8539-9c0c56fd1af1>
+Content-Length: 363
+Content-Type: application/http; msgtype=response
+WARC-Warcinfo-ID: <urn:uuid:686eb1aa-5403-454e-8ff9-de49cdb9446e>
+WARC-Concurrent-To: <urn:uuid:592c2c04-d54e-4037-8e75-df94224626f3>
+WARC-IP-Address: 35:.75.255.9
+WARC-Target-URI: <https://young.tonymctony.com/robots.txt>
+WARC-Payload-Digest: sha1:FYASLUT3UOF4WSBWKX7KW62HIJIOISMM
+WARC-Block-Digest: sha1:AWVNEERB6SYC37BFADZANMLBTKU3ITQ3
+WARC-Identified-Payload-Type: text/x-robots
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 02 Apr 2023 10:55:08 GMT
+Content-Type: text/plain
+Content-Length: 194
+Connection: keep-alive
+X-Proxy-Revision: 93d1fc7
+
+User-agent: *
+Sitemap: <https://young.tonymctony.com/sitemap_index.xml>
+Disallow: /api/
+Disallow: /draft/
+Disallow: /preview
+
+User-agent: Mediapartners-Google
+Disallow: /draft/
+Disallow: /preview
